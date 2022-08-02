@@ -26,7 +26,8 @@ namespace cartesian
                 Color = Color.Green,
                 IsVisibleInLegend = false,
                 IsXValueIndexed = false,
-                ChartType = SeriesChartType.Line,
+                ChartType = SeriesChartType.Line,   
+                BorderWidth = 2, // In a line chart, this is the width of the line.
             };
             _series.Points.Add(new DataPoint { IsEmpty = true });
 

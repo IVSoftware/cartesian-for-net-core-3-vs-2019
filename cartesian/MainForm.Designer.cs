@@ -39,7 +39,7 @@ namespace cartesian
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel.Location = new System.Drawing.Point(31, 22);
             this.panel.Name = "panel";
-            this.panel.Size = new System.Drawing.Size(900, 900);
+            this.panel.Size = new System.Drawing.Size(650, 650);
             this.panel.TabIndex = 0;
             this.panel.Visible = false;
             // 
@@ -47,7 +47,7 @@ namespace cartesian
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(978, 944);
+            this.ClientSize = new System.Drawing.Size(728, 694);
             this.Controls.Add(this.panel);
             this.Name = "MainForm";
             this.Text = "Main Form";
